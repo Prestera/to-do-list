@@ -1,15 +1,17 @@
-/* style.css */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(209, 203, 195);
 }
 
 #container {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    
 }
 
 #container div {
@@ -34,10 +36,15 @@ button{
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
-    background-color: #0d0589a2;
+    background-color: #2d327ad2;
     color: white;
     cursor: pointer;
 }
+.agregar:hover {
+    background-color: rgba(15, 100, 15, 0.628);
+    color: rgb(3, 8, 3);
+}
+
 .btns:hover {
     background-color: #b02727;
 }
@@ -69,3 +76,4 @@ li:last-child {
 }
 
    
+
